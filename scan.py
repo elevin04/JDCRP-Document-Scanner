@@ -258,6 +258,7 @@ class DocScanner(object):
         p = poly_i.PolygonInteractor(ax, poly)
         plt.imshow(rescaled_image)
         plt.get_current_fig_manager().set_window_title('JDCRP Document Scanner')
+        plt.get_current_fig_manager().wm_iconbitmap("icon.ico")
         plt.show()
 
         new_points = p.get_poly_points()[:4]
