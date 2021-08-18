@@ -257,6 +257,7 @@ class DocScanner(object):
             'Close the window when finished.'))
         p = poly_i.PolygonInteractor(ax, poly)
         plt.imshow(rescaled_image)
+        plt.get_current_fig_manager().set_window_title('JDCRP Document Scanner')
         plt.show()
 
         new_points = p.get_poly_points()[:4]
