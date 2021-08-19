@@ -255,7 +255,7 @@ class DocScanner(object):
     def interactive_get_contour(self, screenCnt, rescaled_image):
         # pop-up for 5 secs
         image = cv2.imread("logo.jpg")
-        cv2.imshow("Window", image)
+        cv2.imshow("JDCRP - Jewish Digital Recovery Project", image)
         cv2.waitKey(5000)
         cv2.destroyAllWindows()
 
