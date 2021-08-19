@@ -11,6 +11,7 @@ from pyimagesearch import transform
 from pyimagesearch import imutils
 from scipy.spatial import distance as dist
 from matplotlib.patches import Polygon
+from PIL import Image
 import matplotlib
 import polygon_interacter as poly_i
 import numpy as np
@@ -18,6 +19,7 @@ import matplotlib.pyplot as plt
 import itertools
 import math
 import cv2
+import tkinter as tk
 from pylsd.lsd import lsd
 
 import argparse
@@ -251,6 +253,15 @@ class DocScanner(object):
         return screenCnt.reshape(4, 2)
 
     def interactive_get_contour(self, screenCnt, rescaled_image):
+        # pop-up for 5 secs
+        root = tk.Tk()
+
+        img = tk.PhotoImage(Image.open("logo.png"))
+        label = tk.Label(root, image = img).pack()
+
+        root.after(5000, lambda: root.destroy())
+        root.mainloop()
+
         poly = Polygon(screenCnt, animated=True, fill=False, color="yellow", linewidth=5)
         fig, ax = plt.subplots()
         ax.add_patch(poly)
