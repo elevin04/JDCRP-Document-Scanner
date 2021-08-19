@@ -1,4 +1,4 @@
-# An interactive (and automatic) document scanner built in Python using OpenCV
+# JDCRP automatic document scanner built in Python using OpenCV with Interactive Capabilities
 
 The scanner takes a poorly scanned image, finds the corners of the document, applies the perspective transformation to get a top-down view of the document, sharpens the image, and applies an adaptive color threshold to clean up the image.
 
