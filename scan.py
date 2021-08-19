@@ -254,13 +254,10 @@ class DocScanner(object):
 
     def interactive_get_contour(self, screenCnt, rescaled_image):
         # pop-up for 5 secs
-        root = tk.Tk()
-
-        img = tk.PhotoImage(Image.open("logo.png"))
-        label = tk.Label(root, image = img).pack()
-
-        root.after(5000, lambda: root.destroy())
-        root.mainloop()
+        image = cv2.imread("logo.jpg")
+        cv2.imshow("Window", image)
+        cv2.waitKey(5000)
+        cv2.destroyAllWindows()
 
         poly = Polygon(screenCnt, animated=True, fill=False, color="yellow", linewidth=5)
         fig, ax = plt.subplots()
