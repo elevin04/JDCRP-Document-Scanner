@@ -13,13 +13,13 @@ This project makes use of the transform and imutils modules from pyimagesearch (
 ![Image Directory of images to be processed](https://github.com/andrewdcampbell/doc_scanner/blob/master/before_after.gif)
 
 #### Here are some examples of images before and after scan:
-<img src="https://github.com/elevin04/JDCRP-Document-Scanner/tree/master/examples/input/cell_pic.jpg" height="450"> <img src="https://github.com/elevin04/JDCRP-Document-Scanner/blob/master/examples/output/cell_pic.jpg" height="450">
+<img src="https://github.com/elevin04/JDCRP-Document-Scanner/blob/master/examples/input/cell_pic.jpg" height="450"> <img src="https://github.com/elevin04/JDCRP-Document-Scanner/blob/master/examples/output/cell_pic.jpg" height="450">
 
-<img src="https://github.com/elevin04/JDCRP-Document-Scanner/tree/master/examples/input/receipt.jpg" height="450"> <img src="https://github.com/elevin04/JDCRP-Document-Scanner/blob/master/examples/output/receipt.jpg" height="450">
+<img src="https://github.com/elevin04/JDCRP-Document-Scanner/blob/master/examples/input/receipt.jpg" height="450"> <img src="https://github.com/elevin04/JDCRP-Document-Scanner/blob/master/examples/output/receipt.jpg" height="450">
 
-<img src="https://github.com/elevin04/JDCRP-Document-Scanner/tree/master/examples/input/math_cheat_sheet.JPG" height="450"> <img src="https://github.com/elevin04/JDCRP-Document-Scanner/blob/master/examples/output/math_cheat_sheet.JPG" height="450">
+<img src="https://github.com/elevin04/JDCRP-Document-Scanner/blob/master/examples/input/math_cheat_sheet.JPG" height="450"> <img src="https://github.com/elevin04/JDCRP-Document-Scanner/blob/master/examples/output/math_cheat_sheet.JPG" height="450">
 
-<img src="https://github.com/elevin04/JDCRP-Document-Scanner/tree/master/examples/input/dollar_bill.JPG" width="350"> <img src="https://github.com/elevin04/JDCRP-Document-Scanner/blob/master/examples/output/dollar_bill.JPG" width="350">
+<img src="https://github.com/elevin04/JDCRP-Document-Scanner/blob/master/examples/input/dollar_bill.JPG" width="350"> <img src="https://github.com/elevin04/JDCRP-Document-Scanner/blob/master/examples/output/dollar_bill.JPG" width="350">
 
 
 ### Usage
