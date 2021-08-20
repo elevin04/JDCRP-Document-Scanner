@@ -21,7 +21,6 @@ import math
 import cv2
 import tkinter as tk
 from pylsd.lsd import lsd
-
 import argparse
 import os
 
