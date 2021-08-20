@@ -2,7 +2,7 @@
 
 ![JDCRP](https://media-exp1.licdn.com/dms/image/C4D0BAQE3Pdg723dnkg/company-logo_200_200/0/1604570886991?e=2159024400&v=beta&t=tnNA8fTWZv3J2T7GjKBGok7pqBi_1BWofa1SEBorouk)
 
-The scanner takes a poorly scanned image, finds the corners of the document, applies the perspective transformation to get a top-down view of the document, sharpens the image, and applies an adaptive color threshold to clean up the image.
+This scanner takes a poorly scanned image, finds the corners of the document, applies perspective transformation to get a top-down view of the document, sharpens the image, and applies an adaptive color threshold to clean up the image.
 
 This project makes use of the transform and imutils modules from pyimagesearch (which can be accessed [here](http://www.pyimagesearch.com/2014/09/01/build-kick-ass-mobile-document-scanner-just-5-minutes/)). The UI code for the interactive mode is adapted from `poly_editor.py` from [here](https://matplotlib.org/examples/event_handling/poly_editor.html).
 
