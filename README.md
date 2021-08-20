@@ -22,7 +22,7 @@ This project makes use of the transform and imutils modules from pyimagesearch (
 <img src="https://github.com/elevin04/JDCRP-Document-Scanner/blob/master/examples/input/dollar_bill.JPG" width="350"> <img src="https://github.com/elevin04/JDCRP-Document-Scanner/blob/master/examples/output/dollar_bill.JPG" width="350">
 
 
-### Usage
+### Usage (using the command line)
 ```
 python scan.py (--images <IMG_DIR> | --image <IMG_PATH>) [-i]
 ```
