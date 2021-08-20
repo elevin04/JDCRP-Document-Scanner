@@ -253,12 +253,6 @@ class DocScanner(object):
         return screenCnt.reshape(4, 2)
 
     def interactive_get_contour(self, screenCnt, rescaled_image):
-        # JDCRP pop-up for 5 secs
-        image = cv2.imread("logo.jpg")
-        cv2.imshow("JDCRP - The Jewish Digital Recovery Project", image)
-        cv2.waitKey(5000)
-        cv2.destroyAllWindows()
-
         poly = Polygon(screenCnt, animated=True, fill=False, color="yellow", linewidth=5)
         fig, ax = plt.subplots()
         ax.add_patch(poly)
